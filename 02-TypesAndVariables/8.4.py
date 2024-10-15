@@ -1,10 +1,9 @@
 ###
 # A program that prints your height both in cm and in feet and inches.
 # 
+import math
 cm = 170
-feet = float(cm/30.48)
-rest = float(cm - (feet*30.48))
-inches = round((rest*0.3937), 0 )
+feet = math.floor(float(cm) / 2.54 / 12)
+inches = round((float(cm) / 2.54 / 12 - feet) * 12)
 # calculate the number of feet
-
-print('I am ', cm ,'cm tall, i.e. '+str(feet)+' feet and '+str(inches)+ 'inches')
+print(f'I am {cm}cm tall, i.e. {feet} feet and {inches} inches')

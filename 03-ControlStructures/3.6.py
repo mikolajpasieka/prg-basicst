@@ -16,7 +16,7 @@ else:
         day_ok = True
 
 message = (f'Day {day} for the month {month}')
-if day_ok:
+if day_ok == True:
     print(f'{message} is correct')
 else:
     print(f'{message} is incorrect')

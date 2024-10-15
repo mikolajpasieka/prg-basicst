@@ -10,7 +10,7 @@ test_passed = False
 if tasks_ok/total_tasks >= 0.5 :
     test_passed = True
 
-if test_passed:
+if test_passed == True:
     print('Congratulations! You passed the test.')
 else:
     print('Unfortunately, you failed the test.')

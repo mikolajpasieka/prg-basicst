@@ -33,9 +33,18 @@ while True:
     elif choice == '4': 
         print(f"Your current PIN is: {pin}")
     elif choice == '5':
-        new_pin = input("Enter new pin")
-        pin=new_pin 
-        print(f"Your new PIN is : {new_pin}")
+        pin_1 = input("Please enter current PIN:")
+        if pin_1 == pin: 
+         new_pin = input("Enter new pin")
+         if len(str(new_pin)) > 4:
+            print("PIN is too long!")
+            print("Please try again")
+         else:
+          pin=new_pin 
+          print(f"Your new PIN is : {new_pin}")
+        else:
+           print("Wrong PIN!")
+           print("Please try again")      
     elif choice == '6':
         print("Exiting... Thank you for using the ATM!")
         break  # Exit the loop

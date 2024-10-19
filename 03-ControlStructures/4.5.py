@@ -7,11 +7,15 @@ encrypted_text = ''
 
 for char in plain_text:
     # read the character's code (use ord())
-    caesar_code =  ord(char)
+    ord(char)
     # add one to the character's code
-    leter = caesar_code + 1  
+    letter = ord(char) + 1
     # replace new character code with its
     # corresponding character (use chr())
-    new_leter = chr(leter)
+    code = chr(letter)
     # add encrypted character to encrypted text
-    
+    encrypted_text = encrypted_text + code
+   
+
+print(plain_text)
+print(encrypted_text)

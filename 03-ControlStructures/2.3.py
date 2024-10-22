@@ -18,3 +18,4 @@ else:
     fuel_consumption = 6*distance/100
 print(f'Total fuel consumption over a distance of {distance} km in driving mode {driving_mode} is {fuel_consumption} liters')
 
+

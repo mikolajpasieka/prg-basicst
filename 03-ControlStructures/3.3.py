@@ -9,3 +9,4 @@ if age < 18 or age> 65:
     print("discount is available")
 else:
     print("discount is not available")
+    

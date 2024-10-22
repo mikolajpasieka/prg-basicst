@@ -3,7 +3,7 @@
 # S: Small size, M: Medium size, L: Large size
 # XL: Extra large size or Incorrect symbol (if entered symbol
 # dirrerent than S, M, L, XL)
-#
+##
 size = input('Enter size symbol: ')
 
 if size == 'S':
@@ -14,3 +14,4 @@ elif size == 'L':
     print('L: Large Size')
 else:
     print('XL: Extra Large Size')
+    

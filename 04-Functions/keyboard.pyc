@@ -11,11 +11,11 @@ def input_integer(message):
     return integer
 
 def input_real(message):
-    real = (input(message))
+    real = float(input(message))
     return real
 
 def input_boolean(message):
-    boolean = input(message)
+    boolean = bool(input(message))
     return boolean
 
 

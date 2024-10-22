@@ -20,18 +20,26 @@ print("letter read from the keyboard is", letter)
 # number representing the string "20303"
 number = int("20303")
 print("number representing the string 20303 is", number)
+
 # binary string representing decimal number 304
 binary = bin(304)
 print("binary string representing decimal number 304 is", binary)
+
 # hexadecimal string representing decimal number 304
 hexa = hex(304)
 print("hexadecimal string representing decimal number 304 is ", hexa)
 # integer representing the Unicode code of the € sign
+
 unicode = int(ord("€"))
 print("integer representing the Unicode code of the € sign is", unicode)
+
 # absolute value of -17
 value = abs(-17)
 print("absolute value of -17 is", value)
+
+
+
+
 
 
 

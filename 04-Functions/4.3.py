@@ -4,7 +4,7 @@
 # 5, 12, 13 (result is 30)
 # 7, 24, 25 (result is 84)
 # of the triangle's sides
-# P=√p(p−a)(p−b)(p−c)−
+# P=√p(p−a)(p−b)(p−c)
 #
 import math
 

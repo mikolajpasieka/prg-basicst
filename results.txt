@@ -1,0 +1,95 @@
+test_p1 (__main__.Test.test_p1) ... FAIL
+test_p10 (__main__.Test.test_p10) ... ERROR
+test_p2 (__main__.Test.test_p2) ... FAIL
+test_p3 (__main__.Test.test_p3) ... ERROR
+test_p4 (__main__.Test.test_p4) ... FAIL
+test_p5 (__main__.Test.test_p5) ... ERROR
+test_p6 (__main__.Test.test_p6) ... FAIL
+test_p7 (__main__.Test.test_p7) ... ERROR
+test_p8 (__main__.Test.test_p8) ... ERROR
+test_p9 (__main__.Test.test_p9) ... FAIL
+
+======================================================================
+ERROR: test_p10 (__main__.Test.test_p10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 68, in test_p10
+    import p10
+ModuleNotFoundError: No module named 'p10'
+
+======================================================================
+ERROR: test_p3 (__main__.Test.test_p3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 28, in test_p3
+    import p3
+ModuleNotFoundError: No module named 'p3'
+
+======================================================================
+ERROR: test_p5 (__main__.Test.test_p5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 38, in test_p5
+    import p5
+ModuleNotFoundError: No module named 'p5'
+
+======================================================================
+ERROR: test_p7 (__main__.Test.test_p7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 50, in test_p7
+    import p7
+ModuleNotFoundError: No module named 'p7'
+
+======================================================================
+ERROR: test_p8 (__main__.Test.test_p8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 56, in test_p8
+    import p8
+ModuleNotFoundError: No module named 'p8'
+
+======================================================================
+FAIL: test_p1 (__main__.Test.test_p1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 14, in test_p1
+    self.assertEqual(p1.f(31),7)
+AssertionError: None != 7
+
+======================================================================
+FAIL: test_p2 (__main__.Test.test_p2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 21, in test_p2
+    self.assertEqual(p2.f(5,6,7),True)
+AssertionError: None != True
+
+======================================================================
+FAIL: test_p4 (__main__.Test.test_p4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 34, in test_p4
+    self.assertEqual(p4.f("5290312400019022"),"52**********9022")
+AssertionError: None != '52**********9022'
+
+======================================================================
+FAIL: test_p6 (__main__.Test.test_p6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 46, in test_p6
+    self.assertEqual(p6.f(3124,True),6)
+AssertionError: None != 6
+
+======================================================================
+FAIL: test_p9 (__main__.Test.test_p9)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\Podstawy programowania\prg-basics\05-MockTest\grade-programs.py", line 63, in test_p9
+    self.assertEqual(p9.f("water"),2)
+AssertionError: None != 2
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.006s
+
+FAILED (failures=5, errors=5)

@@ -1,9 +1,8 @@
 sum = 0 
 def f(sentence):
-    sen = str(sentence)
-    for char in sen:
+    for char in sentence:
         if char == 'a' or char == "e" or char == 'i' or char == 'o' or char == 'u' or char == 'y': 
-            sum =+ 1   
+            sum == sum + 1   
         else:
             continue
 print(sum)

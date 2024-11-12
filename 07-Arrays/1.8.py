@@ -5,5 +5,7 @@ computer_games = [
 ]
 a = computer_games.sort(reverse=True) 
 i = 0
+x = i + 1 
 while i < len(computer_games):
-    print(a[i])
+    print(x, a)
+    i += 1 

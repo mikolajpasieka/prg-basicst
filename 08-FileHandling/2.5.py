@@ -10,6 +10,7 @@ shopping_list = 'shopping_list.txt'
 def add_product(file_name, product_name):
    with open(file_name,'a') as file:
       file.write(product_name)
+      file.write('\n')
 
 # Takes next product name from the keyboard
 product = ""

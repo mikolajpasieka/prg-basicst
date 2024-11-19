@@ -1,1 +1,1 @@
-jogurtjajamlekoser
+jogurtjajamlekoser& "C:/Program Files/python/python.exe" c:/Users/s-A121-31.CAMPUS.007/Desktop/prg-basics/08-FileHandling/3.4.py& "C:/Program Files/python/python.exe" c:/Users/s-A121-31.CAMPUS.007/Desktop/prg-basics/08-FileHandling/3.4.py

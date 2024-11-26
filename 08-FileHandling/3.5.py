@@ -8,15 +8,15 @@ username = input("enter username:")
 password = input("enter password")
 
 # pattern (criteria) for username and password
-username_pattern = "......"
-password_pattern = "\d\d\d\d\d\d\d\d+"
+username_pattern = '.{6,}{^\W}'
+password_pattern = '.{8,}{\w}{\W}'
 
 # check if username and password are ok
 username_match = re.match(username_pattern,username)
-...
+password_match = re.match(password_pattern,password)
 
 # print results
-if ... and ...:
-   print(...)
+if password_match and username_match:
+   print("ok")
 else:
-   ... 
+   print("fail")

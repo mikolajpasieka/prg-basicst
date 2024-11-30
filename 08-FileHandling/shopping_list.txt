@@ -1,0 +1,6 @@
+melko
+cukier
+miod
+maka
+przyprawa do piernika
+& C:/Users/pasie/AppData/Local/Programs/Python/Python312/python.exe "c:/Studia/Podstawy programowania/prg-basics/08-FileHandling/3.5.py"
